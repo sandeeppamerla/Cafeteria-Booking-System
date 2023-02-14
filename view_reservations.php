@@ -12,7 +12,7 @@ require "header.php";
         
     
     if(isset($_GET['delete'])){
-        if($_GET['delete'] == "error") {   //douleuei bazw ta errors apo ta headers.. prp na bgalw to requiered
+        if($_GET['delete'] == "error") {   
             echo '<h5 class="bg-danger text-center">Error!</h5>';
         }
         if($_GET['delete'] == "success"){ 
