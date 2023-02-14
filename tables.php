@@ -14,7 +14,7 @@ require "header.php";
         echo '<p class="text-white bg-dark text-center">Set the number of tables for a specific date</p><br>';
 
         if(isset($_GET['error4'])){
-        if($_GET['error4'] == "sqlerror1") {   //douleuei bazw ta errors apo ta headers.. prp na bgalw to requiered
+        if($_GET['error4'] == "sqlerror1") {   
             echo '<h5 class="bg-danger text-center">Error</h5>';
         }
         if($_GET['error4'] == "emptyfields") {  
