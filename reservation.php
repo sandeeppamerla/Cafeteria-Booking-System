@@ -22,7 +22,7 @@ if(isset($_SESSION['user_id'])){
   //error handling:
     
     if(isset($_GET['error3'])){
-        if($_GET['error3'] == "emptyfields") {   //douleuei bazw ta errors apo ta headers.. prp na bgalw to requiered
+        if($_GET['error3'] == "emptyfields") {  
             echo '<h5 class="bg-danger text-center">Fill all fields, Please try again!</h5>';
         }
         else if($_GET['error3'] == "invalidfname") {   
